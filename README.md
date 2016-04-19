@@ -9,9 +9,10 @@ This is a cloud-mobile (SOA_MC) system to implement an electronic queue for the 
 
 ## Main use cases
 
-* The customer (e.g. restaurant) register's itself
+* The customer (e.g. restaurant) registers itself
+* The user (e.g. the restaurant's customer) also registers itself
 * The customer manages the queue (active/inactive)
-* the user (e.g. the restaurant's customer) requests entering the restaurant queue
+* the user requests entering the restaurant queue
 The restaurant's customer pays something for the privilege of entering the queue.
 If he/she actually becomes a restaurant customer, the price paid becomes a discount.
 If he/she does not show to restaurant at time of being first in queue, the system drops it, and moves the queue.
